@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        MAVEN_HOME = tool 'Maven-3.8.7'
+        MAVEN_HOME = tool 'Apache Maven 3.8.7'
         DEPLOY_USER = 'deploy'
         DEPLOY_PASS = 'deploy123'
         TOMCAT_URL = 'http://65.2.132.47:8080/manager/text'
