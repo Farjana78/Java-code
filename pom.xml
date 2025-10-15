@@ -11,7 +11,7 @@
     <groupId>com.example</groupId>
     <artifactId>my-app</artifactId>
     <version>1.0.0</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <name>My Application</name>
     <description>A simple Maven project using Maven 3.8.7</description>
