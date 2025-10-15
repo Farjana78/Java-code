@@ -23,15 +23,10 @@ pipeline {
         }
 
         stage('Deploy') {
-            steps {
-                deploy adapters: [tomcat9(
-                    credentialsId: 'tomcat-credentials',
-                    path: '',
-                    url: "${TOMCAT_URL}"
-                )], contextPath: "${APP_NAME}", war: '**/target/*.war'
-            }
-        }
+    steps {
+        echo "Skipping Tomcat deployment since this is a JAR application"
     }
+}
 
     post {
         success {
