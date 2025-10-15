@@ -23,10 +23,10 @@ pipeline {
         }
 
         stage('Deploy') {
-    steps {
+            steps {
         echo "Skipping Tomcat deployment since this is a JAR application"
     }
-}
+        }
 
     post {
         success {
