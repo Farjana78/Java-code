@@ -24,7 +24,7 @@ pipeline {
 
         stage('Deploy') {
             steps {
-                deploy adapters: [tomcat10(
+                deploy adapters: [tomcat9(
                     credentialsId: 'tomcat-credentials',
                     path: '',
                     url: "${TOMCAT_URL}"
