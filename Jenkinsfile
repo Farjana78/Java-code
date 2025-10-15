@@ -5,7 +5,7 @@ pipeline {
         MAVEN_HOME = tool 'Apache Maven 3.8.7'
         DEPLOY_USER = 'deploy'
         DEPLOY_PASS = 'deploy123'
-        TOMCAT_URL = 'http://<server-ip>:8080/manager/text'
+        TOMCAT_URL = 'http:http://65.2.132.47:8080/:8080/manager/text'
         APP_NAME = 'myapp'
     }
 
